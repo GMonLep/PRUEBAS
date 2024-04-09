@@ -1,17 +1,17 @@
 Algoritmo calculadora_promedios
 	//Definimos las variables
 	Definir numeroUno, numeroDos, numeroTres, promedio como real; Definir nombre Como Caracter;
-	//Saludamos al usuario, solicitando el nombre para una experiencia más amigable, además de indicar el nombre del programa
+	//Saludamos al usuario, solicitando el nombre para una experiencia mÃ¡s amigable, ademÃ¡s de indicar el nombre del programa
 	Escribir "Bienvenida/o a el calculador de promedios 3000 supernova.";
 	Escribir "Por favor ingrese su nombre."
 	//Guardamos el nombre del usuario en la variable "nombre"
 	Leer nombre;
 	//Limpiamos pantalla para no atiborrar la pantalla de contenido
 	Limpiar Pantalla
-	//Damos al usuario la instrucción para ingresar las notas, aclarando el formato aceptado por el programa
-	Escribir nombre, ", ingresa tus tres notas a continuación, por favor ingresa el signo decimal con un punto.";
-	Escribir "SIGUE ESTE EJEMPLO O TUS RESULTADOS SERÁN ÉRRONEOS: 6.5";
-	//Almacenamos las 3 notas en tres variables consecutivas P1 P2 y P3
+	//Damos al usuario la instrucciÃ³n para ingresar las notas, aclarando el formato aceptado por el programa
+	Escribir nombre, ", ingresa tus tres notas a continuaciÃ³n, por favor ingresa el signo decimal con un punto.";
+	Escribir "SIGUE ESTE EJEMPLO O TUS RESULTADOS SERÃN Ã‰RRONEOS: 6.5";
+	//Almacenamos las 3 notas en tres variables consecutivas numeroUno, numeroDos y numeroTres
 	Leer numeroUno;
 	Leer numeroDos;
 	Leer numeroTres;
@@ -21,8 +21,8 @@ Algoritmo calculadora_promedios
 	Limpiar Pantalla
 	//Le damos el promedio al usuario
 	Escribir "Estimada/o ", nombre, ", tu promedio es ", promedio
-	//Utilizamos la función Si para definir que un promedio arriba de 4.0 es aprobado o de lo contrario reprobado
-	//Con escribir damos además un mensaje de apoyo al usuario
+	//Utilizamos la funciÃ³n Si para definir que un promedio arriba de 4.0 es aprobado o de lo contrario reprobado
+	//Con escribir damos ademÃ¡s un mensaje de apoyo al usuario
 	Si promedio<4.0 Entonces
 		Escribir "Lo que significa que haz reprobado el ramo."
 		Escribir "Pucha, fuerza :(";
